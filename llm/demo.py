@@ -96,4 +96,3 @@ gan = compile_gan(generator, discriminator)
 
 # Train the GAN
 train_gan(epochs=10000, batch_size=64, save_interval=1000)
-
